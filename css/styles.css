@@ -1,0 +1,155 @@
+body {
+  text-align: center;
+  font-family: "Montserrat"
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat-bold', sans-serif;
+}
+
+p {
+  color: grey;
+}
+
+.big-heading {
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* section */
+
+.color-section{
+  background-color: #ff4c68;
+  color: white;
+
+}
+.white-section{
+  background-color: #fff;
+
+}
+/* Navigation Bar */
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-light', sans-serif;
+}
+
+/* Bottons section*/
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+/* Title section */
+
+
+#title .container-fluid {
+  text-align: left;
+  padding: 3% 15% 7%;
+}
+/* Title image */
+
+.title-images {
+  padding: 20px;
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+/* Features section*/
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+.f-box {
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 20px;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+/* Testimonials section */
+#testimonials {
+  background-color: #ef8172;
+}
+
+
+.te-images {
+  width: 10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 30px 15px;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Cta section*/
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width:1028px) {
+  .title-images {
+    position: static;
+    transform: rotate(0);
+    text-align: center;
+  }
+}
+
+
+.social-icon {
+  margin: 20px 10px;
+}
